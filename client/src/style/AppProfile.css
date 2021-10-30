@@ -1,0 +1,45 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-top: 10px; */
+}
+
+.header-container .headers, .results-container .appResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.appResults .app_name, .appResults .app_category, .appResults .app_rating, .appResults .app_price, .headers .header {
+  flex: 1 0 25%;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 5px 16px;
+  margin: 5px;
+  background-color: #C0C0C0;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn:focus {
+  background-color: #666;
+  color: white;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-color: #cccccc;
+}
+
+h5 {
+  color: black
+}
